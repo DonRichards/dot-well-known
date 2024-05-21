@@ -4,6 +4,9 @@ Concept idea for a Drupal modules to add Well-Known Uniform Resource Identifiers
 ## Breakdown of key elements within the example files
 - .well-known/aicrawler file: [Explanation of Key Elements](Explanation_of_Key_Elements.md) 
 
+## List
+- [https://en.wikipedia.org/wiki/Well-known_URI](https://en.wikipedia.org/wiki/Well-known_URI)
+
 ## Idea:
 `well-known/` subdirectory is defined by [RFC8615](https://www.rfc-editor.org/rfc/rfc8615) Request for Comments (RFC) memorandum published by the Internet Engineering Task Force (IETF)
 
