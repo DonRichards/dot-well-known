@@ -1,0 +1,95 @@
+# AI Crawlers Instructions
+
+# General instructions for all crawlers
+User-agent: *
+Allow: /public-content/
+Disallow: /private-content/
+Crawl-delay: 10
+
+# Specific instructions for Googlebot
+User-agent: Googlebot
+Allow: /public-content/
+Disallow: /sensitive-content/
+Crawl-delay: 5
+
+# Specific instructions for Bingbot
+User-agent: Bingbot
+Allow: /public-content/
+Disallow: /restricted-content/
+Crawl-delay: 8
+
+# Specific instructions for ChatGPT
+User-agent: ChatGPT
+Allow: /public-content/
+Disallow: /confidential-content/
+Crawl-delay: 10
+
+# Specific instructions for Bard (Google's AI chatbot)
+User-agent: Bard
+Allow: /public-content/
+Disallow: /internal-content/
+Crawl-delay: 7
+
+# Specific instructions for Claude (Anthropic's AI)
+User-agent: Claude
+Allow: /public-content/
+Disallow: /proprietary-content/
+Crawl-delay: 9
+
+# Specific instructions for Jasper AI
+User-agent: Jasper
+Allow: /public-content/
+Disallow: /exclusive-content/
+Crawl-delay: 6
+
+# Specific instructions for any other known AI chatbot agents
+User-agent: AI-Agent-Name
+Allow: /public-content/
+Disallow: /restricted-content/
+Crawl-delay: 10
+
+# Contact information for the site administrator
+Contact: donrichards@jhu.edu
+
+# Additional guidelines
+# You can add more specific rules or comments here
+# =====================
+# Sitemap: Provide a link to your sitemap for better indexing
+Sitemap: https://www.yourdomain.com/sitemap.xml
+
+# User-Agent Specific Crawl Rate: Define different crawl rates for specific sections of the website
+User-agent: *
+Crawl-rate: 1 request every 10 seconds
+
+# Request Rate Limiting: Set a limit on the number of requests per minute
+Rate-limit: 60 requests per minute
+
+# API Usage: Provide guidelines for API usage if your site offers an API
+API-usage: If accessing our API, please adhere to our API rate limits and authentication requirements. Refer to https://www.yourdomain.com/api-docs for more details.
+
+# Error Handling: Instructions on handling HTTP errors
+Error-handling: In case of 404 errors, retry after 5 minutes. For 500 errors, contact admin@yourdomain.com
+
+# Data Retention: Guidelines on data retention and privacy
+Data-retention: Do not store sensitive user data. Ensure compliance with our privacy policy at https://www.yourdomain.com/privacy-policy
+
+# JavaScript Rendering: Guidelines on handling JavaScript-heavy content
+JS-rendering: Enable JavaScript rendering for better indexing of dynamic content
+
+# Mobile-first Indexing: Indicate if the site is optimized for mobile-first indexing
+Mobile-first: This site is optimized for mobile-first indexing. Ensure proper handling of mobile-specific content
+
+# Cookie Handling: Guidelines on handling cookies and tracking
+Cookie-handling: Respect user consent for cookies. Follow our cookie policy at https://www.yourdomain.com/cookie-policy
+
+# Rate Limiting and Retry Strategy: Specific retry strategies for rate-limited responses
+Retry-strategy: For 429 (Too Many Requests) responses, retry after 1 minute
+
+# Handling Multiple Languages: Guidelines for multilingual sites
+Languages: This site supports multiple languages. Use hreflang attributes to navigate language-specific content
+
+# Structured Data: Recommendations for using structured data
+Structured-data: Utilize structured data markup to improve search engine understanding of content. Refer to https://www.yourdomain.com/structured-data-guide
+
+# Feedback and Reporting Issues: Contact details for reporting issues with crawling
+Feedback: For any issues or feedback regarding crawling, contact donrichards@jhu.edu
