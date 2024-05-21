@@ -3,7 +3,7 @@ Concept idea for a Drupal modules to add Well-Known Uniform Resource Identifiers
 
 ## Breakdown of key elements within the example files
 - .well-known/aicrawler file: [Explanation of Key Elements](Explanation_of_Key_Elements.md) 
-
+- .well-known/ai-plugin.txt file [copied from](https://github.com/openai/chatgpt-retrieval-plugin/tree/main)
 ## List
 - [https://en.wikipedia.org/wiki/Well-known_URI](https://en.wikipedia.org/wiki/Well-known_URI)
 
