@@ -1,4 +1,5 @@
 ### Explanation of Key ELements
+This is a suggestion and there is nothing official on this.
 
 1. **API-Specific Endpoints**: 
    - The `Allow` and `Disallow` directives specify API endpoints that crawlers can and cannot access.
